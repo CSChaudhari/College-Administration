@@ -1,14 +1,13 @@
 College Administration System
 Table of Contents
-About
-Features
-Tech Stack
-Setup
-Usage
-API Endpoints
-Screenshots
-Contributing
-License
+1.About
+2.Features
+3.Tech Stack
+4.Setup
+5.Usage
+6.API Endpoints
+7.Contributing
+
 About
 The College Administration System is a web application designed to manage student applications and administrative tasks. The system has two roles: User and Admin. Users can apply for bonafide certificates, scholarships, and travel concessions. Admins have special privileges to perform CRUD operations on users and applications.
 
@@ -20,53 +19,48 @@ Apply for Travel Concessions
 Admin
 Manage Users (Create, Read, Update, Delete)
 Manage Applications (Approve, Reject, View Details)
+
 Tech Stack
 Frontend: React
 Backend: Node.js, Express
 Database: MongoDB
 Others: Axios, React Router, Mongoose, Cors, Body-Parser
+
 Setup
 Prerequisites
 Node.js and npm installed
 MongoDB instance running
-Installation
-Clone the repository
 
-bash
-Copy code
+Installation
+
+Clone the repository
 git clone https://github.com/your-username/college-admin.git
 cd college-admin
+
 Install dependencies for frontend and backend
 
-bash
-Copy code
 cd frontend
 npm install
 cd ../backend
 npm install
+
 Set up environment variables
 
 Create a .env file in the backend directory and add the following:
-
-env
-Copy code
 PORT=5000
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
+
 Run the application
 
 Start the backend server:
-
-bash
-Copy code
 cd backend
 npm start
-Start the frontend server:
 
-bash
-Copy code
+Start the frontend server:
 cd frontend
 npm start
+
 Usage
 User
 Register and login to the system.
@@ -75,6 +69,7 @@ Submit the required forms.
 Admin
 Login to the admin panel.
 Manage users and applications through the admin dashboard.
+
 API Endpoints
 Authentication
 POST /api/auth/register - Register a new user
@@ -91,8 +86,6 @@ POST /api/applications/concession - Apply for a travel concession
 GET /api/applications - Get all applications (Admin only)
 GET /api/applications/:id - Get a single application (Admin only)
 PUT /api/applications/:id - Update an application status (Admin only)
-Screenshots
-
 
 Contributing
 Fork the repository.
