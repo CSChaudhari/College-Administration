@@ -34,7 +34,7 @@ MongoDB instance running
 Installation
 
 Clone the repository
-git clone https://github.com/your-username/college-admin.git
+git clone https://github.com/CSChaudhari/College-Administration
 cd college-admin
 
 Install dependencies for frontend and backend
